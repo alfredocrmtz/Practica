@@ -15,7 +15,28 @@ header{
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: center;
+    display: inline-block;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+/*.carne:hover{
+    filter: blur(5em);
+    border-radius: 80%;
+    -webkit-border-radius: 80%;
+    box-shadow: 0em 0em 1em 1em #EC731e;
+    -webkit-box-shadow:  0em 0em 1em 1em #EC731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}*/
 
 .lechuga{
     background-color: green;
@@ -38,4 +59,14 @@ header{
 .mayonesa{
     background-color: antiquewhite;
     height: .2em;
+}
+
+.ensancha1{
+    flex-grow: 1;
+}
+.ensancha2{
+    flex-grow: 2;
+}
+.ensancha3{
+    flex-grow: 3;
 }
