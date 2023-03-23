@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.pan{
+    background-color: burlywood;
+    border-radius: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.lechuga{
+    background-color: green;
+    /*height: 100px;*/
+    height: 2em;
+}
+
+.queso{
+    background-color: yellow;
+    height: .5em;
+    color: white;
+}
+
+.carne{
+    background-color: brown;
+    height: 3em;
+    text-align: center;
+}
+
+.mayonesa{
+    background-color: antiquewhite;
+    height: .2em;
+}
