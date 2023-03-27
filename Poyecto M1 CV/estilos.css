@@ -7,9 +7,10 @@ body {
     background-image: url('headerBG.png');
 }
 
-header {        
+header {      
+    color: black;      
     font-size: larger;
-    background-image: url('headerBG2.png');
+    background-image: url('headerBG2.png');    
 }
 
 main{
@@ -28,6 +29,26 @@ footer {
 
 article{
     padding: 1em 1em 1em 1em;
+}
+
+input{
+    margin-top: 1em;    
+    height: 2em;
+    font-size: larger;
+    color: #220E3F;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 0;
+    border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+}
+
+.name{
+    width: 14em;
+}
+
+.image-profile{
+    width: 2em;  
 }
 
 .sangria{
@@ -59,7 +80,8 @@ article{
 }
 
 .padingTextHeader{
-    padding: 1em 1em 1em 1em;
+    padding: 5em 1em 1em 1em;
+    align-content: center;
 }
 
 .row {
@@ -82,4 +104,48 @@ article{
 
 .imgPerfil{
     text-align: center;
+}
+
+.contenedorBotonContacto{
+    padding-top: 13.5em;
+    padding-inline-end: 2em;
+    text-align: right;
+}
+
+.botonContacto{
+    color: darkblue;
+    font-size: larger;
+    height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    background-color: cyan;
+    border-color: aquamarine;
+    font-weight: bold;
+    border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+}
+
+.botonContacto:hover{
+    color: blue;
+    background-color: darkturquoise;
+    border-color: cyan;    
+}
+
+.botonFormularios{
+    font-size: larger;
+    color: white;
+    background-color: rgb(0, 128, 0);
+    border-color: rgb(0, 128, 0);
+    border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+}
+
+.botonFormularios:hover{    
+    background-color: rgb(2, 114, 2);
+    border-color: rgb(2, 114, 2);
+}
+
+.sinBordes{
+    border: 0;
 }
