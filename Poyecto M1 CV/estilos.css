@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    background-image: url('headerBG.png');
+}
+
+header {        
+    font-size: larger;
+    background-image: url('headerBG2.png');
+}
+
+main{
+    scroll-behavior: auto;
+}
+
+footer {
+    color: white;
+    text-align: right;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+article{
+    padding: 1em 1em 1em 1em;
+}
+
+.sangria{
+    padding-left: 2em;
+}
+.sangriaLista{
+    padding-left: 3em;
+}
+
+.contenedor{
+    background-color: black;
+    margin: 2em 2em 2em 2em;
+    padding: 1em 1em 1em 1em;
+    font-size: larger;
+    opacity: 0.5;
+    border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    box-shadow: 0.3em 0.3em 0.8em 0.8em black;
+    -webkit-box-shadow:  0.3em 0.3em 0.8em 0.8em black;    
+    color: white;
+}
+
+.contenedor:hover{
+    opacity: 0.8;
+}
+
+.contenedor:focus{
+    opacity: 0.8;
+}
+
+.padingTextHeader{
+    padding: 1em 1em 1em 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.ancho1{
+    flex-grow: 1;
+}
+
+.ancho2{
+    flex-grow: 2;
+}
+
+.imgPerfil{
+    text-align: center;
+}
