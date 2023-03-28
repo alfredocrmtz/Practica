@@ -70,3 +70,12 @@ header{
 .ensancha3{
     flex-grow: 3;
 }
+
+#mamba-negra{
+    background-color: black !important;
+    color: white !important;
+}
+
+#mamba-negra .queso{
+    background-color: blue;    
+}

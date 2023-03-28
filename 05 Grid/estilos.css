@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-4 {
+    display: grid;
+    /*grid-template-columns: 25% 25% 25% 25%; /*Porcentaje Tambien se puede usar fr -> fracción*/
+    grid-template-columns: 1fr 1fr 1fr 1fr; /*Fracción Tambien se puede usar fr -> fracción*/
+}
+
+@media screen and (min-width:300px) {
+    section{
+        background-color: plum;
+        /*Ancho, estilo de linea borde y color de linea borde*/
+        border: 2px solid purple;
+        grid-column: span 2;
+    }    
+}
+
+@media screen and (max-width:300px) {
+    section{
+        background-color: plum;
+        /*Ancho, estilo de linea borde y color de linea borde*/
+        border: 2px solid purple;
+        grid-column: span 4;
+    }    
+}
+
+
+#principal{
+    border: 2px solid rgb(23, 0, 128);
+    background-color: lightskyblue;
+    /*Unidad de medida especificada en lineas, o diviciones comenzando del inicio*/
+    grid-column: 1 / 4;
+}
+
+aside{
+    border: 2px solid rgb(0, 128, 49);
+    background-color: aquamarine;
+}
