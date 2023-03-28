@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*Reseteo de box size*/
+}
+.contenedor1{
+    background-color: gray;
+    background: gray;
+    color: white;
+    margin-top: 10px;
+    margin-right: 300px;
+}

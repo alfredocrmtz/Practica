@@ -35,6 +35,14 @@
     grid-column: 1 / 4;
 }
 
+#principal ol{
+    padding-left: 2em;
+}
+
+#principal ul{
+    padding-left: 2em;
+}
+
 aside{
     border: 2px solid rgb(0, 128, 49);
     background-color: aquamarine;

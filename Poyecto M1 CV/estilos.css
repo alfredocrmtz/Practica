@@ -31,22 +31,44 @@ article{
     padding: 1em 1em 1em 1em;
 }
 
-input{
-    margin-top: 1em;    
-    height: 2em;
-    font-size: larger;
-    color: #220E3F;
-    padding-left: 1em;
-    padding-right: 1em;
-    border: 0;
-    border-radius: 0.8em;
-    -webkit-border-radius: 0.8em;
+@media screen and (min-width:420px){
+    input{
+        margin-top: 1em;    
+        height: 2em;
+        font-size: larger;
+        color: #220E3F;
+        padding-left: 1em;
+        padding-right: 1em;
+        border: 0;
+        border-radius: 0.8em;
+        -webkit-border-radius: 0.8em;
+    }
 }
 
-.name{
-    width: 14em;
+@media screen and (max-width:420px){
+    input{
+        margin-top: 0em;    
+        height: 1em;
+        font-size: medium;
+        color: #220E3F;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        border: 0;
+        border-radius: 0.2em;
+        -webkit-border-radius: 0.2em;
+    }  
 }
 
+@media screen and (min-width:276px){
+    .name{
+        width: 14em;
+    }
+}
+@media screen and (max-width:276px){
+    .name{
+        width: 7em;
+    }
+}
 .image-profile{
     width: 2em;  
 }
@@ -79,14 +101,102 @@ input{
     opacity: 0.8;
 }
 
+.grid-habilidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (min-width:800px) {
+    #resumenHabilidades{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    #ideDesarrollo{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    #lenguajes{
+        grid-column: 2 / 3;
+        grid-row: 2 / 4;
+    }
+    
+    #frontEnd{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    
+    #backEnd{
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+    
+    #baseDatos{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    
+    #servidorAplicaciones{
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+    } 
+}
+@media screen and (max-width:800px) {
+    #resumenHabilidades{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    #ideDesarrollo{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    #lenguajes{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    #frontEnd{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    #backEnd{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    #baseDatos{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    #servidorAplicaciones{
+        grid-column: span 3;
+        grid-row: span 1;
+    } 
+}
+
 .padingTextHeader{
     padding: 5em 1em 1em 1em;
     align-content: center;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
+@media screen and (min-width:600px){
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:600px){
+    .row {
+        display: flex;
+        flex-direction: column;
+    }   
 }
 
 .column {
@@ -148,4 +258,8 @@ input{
 
 .sinBordes{
     border: 0;
+}
+
+#resumenHabilidades h2{
+    text-align: center;
 }
