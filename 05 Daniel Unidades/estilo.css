@@ -1,12 +1,28 @@
 *{
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; /*Reseteo de box size*/
+    padding: 0px;    
 }
 .contenedor1{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
     background-color: gray;
     background: gray;
     color: white;
     margin-top: 10px;
     margin-right: 300px;
+}
+
+.contenedor2{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: gray;
+    background: gray;
+    color: white;
+    margin-top: 10px;
+    margin-right: 300px;
+    box-sizing: border-box; /*Reseteo de box size*/
 }

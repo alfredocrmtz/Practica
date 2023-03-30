@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background: darkcyan;
+    width: 100vw;
+    height: 100vh;
+}
+.cuadro1{
+    width: 100px;
+    height: 100px;
+    background: plum;
+}
+
+.cuadro2{
+    width: 100%;
+    height: 50%;
+    background: blanchedalmond;
+}
+
+.cuadro3{
+    background: yellowgreen;
+}
+
+.cuadro4{
+    background: peru;
+    height: 3em;
+}
+
+.titulo{
+    /*
+    em tamaño de fuente principal o universal
+    rem tamaño de fuente del contenedor inmediato superior.
+    */
+    color: firebrick;
+}
