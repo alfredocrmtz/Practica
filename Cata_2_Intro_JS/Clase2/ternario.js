@@ -48,9 +48,7 @@ function yearUmtilRetirement(birthYear){
 console.log(yearUmtilRetirement(birthYear));
 
 const nombre = "Alfredo";
-
 function saludo(nombre){
     return "Hola "+nombre;
 }
-
 console.log(saludo(nombre));
